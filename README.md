@@ -80,4 +80,5 @@ Taking the results from the models we will evaluate the performance and make a d
  
  ## Summary
  
+ With the first 4 models we over/undersampled and a combination of both to attempt to determine which model is most suited at predicting what loans are highest risk. Than in the following two models we resampled the data using the EasyEnsembleClassifier algorithm and BalancedForestClassifier to do the same at predicting what loans are high or low risk. From the results it can be shown that the EastEnsembleClassifier model has the best balanced results of all the models because of its high accuracy score and recall rate. O on the high risk side the EasyEnsembleClassifier detects almost all of the high risk credit but that is countered by the fact that a lot of the low risk credits are being falsely detected as high risk.
  
